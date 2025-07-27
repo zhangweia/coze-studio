@@ -13,7 +13,7 @@ services:
     profiles: ['middleware', 'mysql-setup', 'mysql']
     env_file: *env_file
     ports:
-      - '3306:3306'
+      - '3307:3306'
     volumes:
       - ./data/mysql:/var/lib/mysql
     command:
